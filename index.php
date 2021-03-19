@@ -18,7 +18,6 @@
 $con = mysqli_connect("localhost", "root", "", "mini-api");
 
 $response = array();
-$json = '1111111';
 
 if($con){
     $sql = "SELECT * from DATA ";
